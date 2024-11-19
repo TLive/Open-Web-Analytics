@@ -62,7 +62,7 @@ define('OWA_AUTH_SALT', 'RtVJ4FDL0S9tl3FemKMjzRMeMTTh5ly5');
  */
  
 /*define('OWA_PUBLIC_URL', 'https://owa.tliveinc.com/'); */
-define('OWA_PUBLIC_URL', 'https://tl-analytics-pr-1.herokuapp.com') 
+define('OWA_PUBLIC_URL', 'https://tl-analytics-pr-1.herokuapp.com/') 
 
 /** 
  * OWA ERROR HANDLER
