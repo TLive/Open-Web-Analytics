@@ -4,7 +4,7 @@ import { Util as OwaUtil } from '../common/Util.js';
 
 (function() {
 
-    if ( OwaUtil.isBrowserTrackable() ) {
+    //if ( OwaUtil.isBrowserTrackable() ) {
 
         // execute commands global owa_cmds command queue
         if ( typeof owa_cmds === 'undefined' ) {
@@ -18,5 +18,5 @@ import { Util as OwaUtil } from '../common/Util.js';
 
         window['owa_cmds'] = q;
         window['owa_cmds'].process();
-    }
+    //
 })();
